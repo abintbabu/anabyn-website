@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "studio-8071289894-828ab"
+  },
+  "targets": {
+    "studio-8071289894-828ab": {
+      "hosting": {
+        "anabyn": [
+          "studio-8071289894-828ab"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
