@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "out",
+    "site": "studio-9297553856-4efc0",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +10,10 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "run": {
+          "serviceId": "anabyn-website",
+          "region": "us-central1"
+        }
       }
     ]
   }
